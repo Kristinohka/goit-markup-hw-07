@@ -1,3 +1,6 @@
+.about{
+     padding-bottom: 94px;
+}
 .about__title{
     margin-bottom: 50px;
     font-size: 36px;
@@ -9,14 +12,12 @@
 .about__list{
     display: flex;
     padding-top: 0;
-    padding-bottom: 94px;
+  
 }  
 .about__item {
-    margin-right: 30px;
+    gap: 30px;
     position: relative;
-    &:nth-child(3n){
-    margin-right: 0;
-    }}
+    }
 
     .about__schild{
     position:absolute;

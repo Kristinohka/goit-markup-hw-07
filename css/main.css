@@ -50,12 +50,7 @@ p {
   background-color: rgb(255, 255, 255);
   border: 1px solid #ECECEC;
 }
-.header .link:hover,
-.header .link:focus {
-  color: rgb(33, 150, 243);
-  fill: rgb(33, 150, 243);
-  cursor: pointer;
-}
+
 
 .header__container {
   display: flex;
@@ -120,7 +115,7 @@ p {
   fill: rgb(33, 150, 243);
   cursor: pointer;
 }
-.header-link .current .link::after {
+.header__link .current .link::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -498,11 +493,8 @@ p {
 }
 
 .about__item {
-  margin-right: 30px;
+  gap: 30px;
   position: relative;
-}
-.about__item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .about__schild {
@@ -549,7 +541,7 @@ p {
 .team__item {
   width: 270px;
   background-color: rgb(255, 255, 255);
-  margin-right: 30px;
+  gap: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
