@@ -539,7 +539,7 @@ p {
     gap: 30px;
 }
 
-.team__item {
+.team-item{
   width: 270px;
   background-color: rgb(255, 255, 255);
  
