@@ -534,9 +534,9 @@ p {
 }
 
 .team__list {
-  display: flex;
-  text-align: center;
-  gap: 30px;
+    display: flex;
+    text-align: center;
+    gap: 30px;
 }
 
 .team__item {
